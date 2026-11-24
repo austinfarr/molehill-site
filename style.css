@@ -1,0 +1,16 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #F3E7CB; color: #4A3728; font: 600 17px/1.55 ui-rounded, "SF Pro Rounded", "Nunito", "Arial Rounded MT Bold", system-ui, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 44px 20px 72px; }
+header { display: flex; gap: 18px; align-items: center; margin-bottom: 28px; }
+header img { width: 84px; height: 84px; border-radius: 20px; box-shadow: 0 5px 0 #E0CDA2; }
+h1 { font-weight: 900; font-size: 40px; letter-spacing: -0.02em; line-height: 1; margin: 0; }
+h1 span { color: #3A7A41; }
+.tag { margin: 6px 0 0; font-size: 13px; font-weight: 800; letter-spacing: 0.14em; color: #8A7868; }
+h2 { font-weight: 900; font-size: 22px; margin: 34px 0 8px; }
+p, li { color: #6B5446; }
+p { margin: 0 0 12px; }
+a { color: #3A7A41; font-weight: 800; }
+.card { background: #FFF8EA; border-radius: 22px; padding: 18px 20px; box-shadow: 0 5px 0 #E0CDA2; margin: 14px 0; }
+.card p:last-child { margin-bottom: 0; }
+footer { margin-top: 40px; font-size: 14px; color: #8A7868; }
